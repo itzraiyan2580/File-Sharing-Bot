@@ -62,7 +62,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only a File Share bot! : @anime_mania_0"
+USER_REPLY_TEXT = "❌ Don't send me messages directly I'm only a File Share bot! : @anime_mania_0"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
